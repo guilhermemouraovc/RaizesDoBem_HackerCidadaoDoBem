@@ -3,7 +3,7 @@ import { Sprout, Recycle } from 'lucide-react';
 
 const InfoBanner: React.FC = () => {
   return (
-    <section className="py-10 bg-gradient-to-r from-[#5e17eb] to-[#6e39e8]">
+    <section className="py-10 bg-[#0047B9]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center text-white">
           <div className="mb-8 md:mb-0 md:w-1/2">
@@ -17,7 +17,7 @@ const InfoBanner: React.FC = () => {
           <div className="md:w-1/2 md:pl-12 flex flex-col space-y-6">
             <div className="flex items-start">
               <div className="bg-white p-3 rounded-full mr-4">
-                <Sprout size={24} className="text-[#5e17eb]" />
+                <Sprout size={24} className="text-[#0046AD]" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Benefícios para o solo</h3>
@@ -26,7 +26,7 @@ const InfoBanner: React.FC = () => {
             </div>
             <div className="flex items-start">
               <div className="bg-white p-3 rounded-full mr-4">
-                <Recycle size={24} className="text-[#5e17eb]" />
+                <Recycle size={24} className="text-[#0046AD]" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Redução de resíduos</h3>

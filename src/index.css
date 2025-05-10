@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Faz html e body ocuparem toda a altura e zera margens/paddings */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    /* Caminho até a sua imagem em public/assets, sem /dist */
+    background-image: url('/assets/compostagem-fundo-estendido.jpg');
+    background-size: cover;        /* cobre toda a viewport */
+    background-repeat: no-repeat;  /* sem repetições */
+    background-position: center;   /* centraliza */
+    background-attachment: fixed;   /* fixa durante o scroll */
+  }
+}

@@ -36,7 +36,7 @@ const CompostingForm: React.FC = () => {
     <section className="py-8 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 md:p-8">
-          <h2 className="text-2xl font-bold text-[#5e17eb] mb-2">Encontro de Compostagem</h2>
+          <h2 className="text-2xl font-bold text-[#0046AD] mb-2">Encontro de Compostagem</h2>
           <p className="text-gray-600 mb-6">
             Participe dos nossos encontros de compostagem e aprenda técnicas sustentáveis para cuidar do meio ambiente.
           </p>
@@ -57,7 +57,7 @@ const CompostingForm: React.FC = () => {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5e17eb] focus:border-[#5e17eb]"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#0046AD] focus:border-[#0046AD]"
                   required
                 />
               </div>
@@ -100,7 +100,7 @@ const CompostingForm: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#5e17eb] text-white py-2 px-4 rounded-md hover:bg-[#4a12bd] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#5e17eb] disabled:opacity-70"
+                  className="w-full bg-[#0047B9] text-white py-2 px-4 rounded-md hover:bg-[#4a12bd] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#5e17eb] disabled:opacity-70"
                 >
                   {isSubmitting ? 'Enviando...' : 'Inscrever-se'}
                 </button>

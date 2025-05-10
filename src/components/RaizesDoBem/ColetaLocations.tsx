@@ -32,7 +32,7 @@ const ColetaLocations: React.FC = () => {
   return (
     <section className="py-8">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-[#5e17eb] mb-2">Pontos de Coleta</h2>
+        <h2 className="text-2xl font-bold text-[#0046AD] mb-2">Pontos de Coleta</h2>
         <p className="text-gray-600 mb-6">
           Conheça os pontos de coleta de resíduos compostáveis em Recife e contribua com o meio ambiente.
         </p>
