@@ -69,7 +69,7 @@ npm run dev
 
 | Integrante            | Função         |
 |-----------------------|----------------|
-| Alexssandro Chaves    | Desenvolvedor  |
+| Alexsandro Chaves    | Desenvolvedor  |
 | Guilherme Mourão      | Desenvolvedor  |
 | Manoela Coelho        | Designer       |
 | Williams Ferreira     | Desenvolvedor  |
